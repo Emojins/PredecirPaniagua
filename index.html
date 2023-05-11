@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+</head>
+<body>
+    
+    
+    <div>
+        <label for="repeticiones">Cantidad de repeticiones para entrenar el modelo:</label>
+        <input type="number" id="repeticiones" name="repeticiones">
+        <button onclick="Entrenar()">Entrenar</button>
+    </div>
+
+    <div>
+        <label for="valorPredecir">Valor de x para predecir el valor de y:</label>
+        <input type="number" id="valorPredecir" name="valorPredecir">
+        <button onclick="Predecir()">Predecir</button>
+    </div>
+
+    <div id="Resultado">Training...</div>
+    
+    <script src="./pruebasss.js"> </script>
+</body>
+</html>
